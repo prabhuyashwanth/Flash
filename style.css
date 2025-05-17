@@ -1,0 +1,30 @@
+*{
+  margin: 0px;
+  padding: 0px;
+  font-family: "Josefin Sans", sans-serif;
+  font-optical-sizing: auto;
+  font-weight: <weight>;
+  font-style: normal;
+}    
+    body {
+      background-color: #f8f9fa;
+      padding: 2rem;
+    }
+    h1, h2 {
+      color: #343a40;
+    }
+    #flashcard-form textarea,
+    #flashcard-form input {
+      margin-bottom: 1rem;
+    }
+    #flashcards-container {
+      margin-top: 1rem;
+    }
+    .flashcard {
+      background-color: white;
+      border: 1px solid #dee2e6;
+      padding: 1rem;
+      margin-bottom: 1rem;
+      border-radius: 0.5rem;
+      box-shadow: 0 0.25rem 0.5rem rgba(0, 0, 0, 0.05);
+    }
